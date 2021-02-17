@@ -72,7 +72,7 @@ namespace Com.Cognizant.MovieCruiser.Dao
             }
         }
 
-        public void EditMovie(string title)
+        public void EditMovieListByAdmin(string title)
         {
             movieList = GetMovieList();
             foreach (Movie movie in movieList)
@@ -172,7 +172,7 @@ namespace Com.Cognizant.MovieCruiser.Dao
             return favoritesMovieList;
         }
 
-        public void AddMovieToFavorites(string title)
+        public void AddMovieToFavoritesMovieList(string title)
         {
             movieList = GetMovieList();
             favoritesMovieList = GetFavoritesMovieList();
@@ -239,7 +239,7 @@ namespace Com.Cognizant.MovieCruiser.Dao
         //    }
         //}
 
-        public void ViewFavorites()
+        public void ViewFavoritesMovieList()
         {
             favoritesMovieList = GetFavoritesMovieList();
             Console.WriteLine("Favorites:");
@@ -251,7 +251,7 @@ namespace Com.Cognizant.MovieCruiser.Dao
             Console.WriteLine("No. of Favorites: " + favoritesMovieList.Count());
         }
 
-        public void RemoveMovieFromFavorites(int id)
+        public void RemoveMovieFromFavoritesMovieList(int id)
         {
             favoritesMovieList = GetFavoritesMovieList();
             int i = id - 1;

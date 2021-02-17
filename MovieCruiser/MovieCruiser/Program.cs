@@ -76,7 +76,7 @@ namespace MovieCruiser
                                 admin.DisplayMovieListByAdmin();
                                 Console.WriteLine("Enter the title of the movie you want to edit:");
                                 string title = Console.ReadLine();
-                                admin.EditMovie(title);
+                                admin.EditMovieListByAdmin(title);
                             }
                             else if (adminChoice == 0)
                             {
@@ -117,18 +117,18 @@ namespace MovieCruiser
                                 customer.DisplayMovieListByCustomer();
                                 Console.WriteLine("Enter the title of the movie you want to add to favorites:");
                                 string title = Console.ReadLine();
-                                customer.AddMovieToFavorites(title);
+                                customer.AddMovieToFavoritesMovieList(title);
                             }
                             else if (customerChoice == 3)
                             {
-                                customer.ViewFavorites();
+                                customer.ViewFavoritesMovieList();
                             }
                             else if (customerChoice == 4)
                             {
-                                customer.ViewFavorites();
+                                customer.ViewFavoritesMovieList();
                                 Console.WriteLine("Enter the id of the movie you want to remove from favorites:");
                                 int id = Convert.ToInt16(Console.ReadLine());
-                                customer.RemoveMovieFromFavorites(id);
+                                customer.RemoveMovieFromFavoritesMovieList(id);
                             }
                             else if (customerChoice == 0)
                             {
