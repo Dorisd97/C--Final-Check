@@ -1,0 +1,12 @@
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\MovieCruiser.exe.config
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\MovieCruiser.exe
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\MovieCruiser.pdb
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.Dao.dll
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.Model.dll
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.Dao.pdb
+E:\C# Final Check\MovieCruiser\MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.Model.pdb
+E:\C# Final Check\MovieCruiser\MovieCruiser\obj\Debug\MovieCruiser.csprojAssemblyReference.cache
+E:\C# Final Check\MovieCruiser\MovieCruiser\obj\Debug\MovieCruiser.csproj.CoreCompileInputs.cache
+E:\C# Final Check\MovieCruiser\MovieCruiser\obj\Debug\MovieCruiser.csproj.CopyComplete
+E:\C# Final Check\MovieCruiser\MovieCruiser\obj\Debug\MovieCruiser.exe
+E:\C# Final Check\MovieCruiser\MovieCruiser\obj\Debug\MovieCruiser.pdb
